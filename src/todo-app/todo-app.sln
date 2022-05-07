@@ -5,7 +5,11 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todo.console", "todo.console\todo.console.csproj", "{DEB75553-AC6E-4477-A6B9-EEABEBE7AE45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo.domain", "todo.domain\todo.domain.csproj", "{2DE89032-2AC0-4879-8E6B-55AFC433D02C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todo.domain", "todo.domain\todo.domain.csproj", "{2DE89032-2AC0-4879-8E6B-55AFC433D02C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{0705F6E4-D3FE-49CD-BF38-1912C4A4232E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo.wpf", "todo.wpf\todo.wpf.csproj", "{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,9 +45,24 @@ Global
 		{2DE89032-2AC0-4879-8E6B-55AFC433D02C}.Release|x64.Build.0 = Release|Any CPU
 		{2DE89032-2AC0-4879-8E6B-55AFC433D02C}.Release|x86.ActiveCfg = Release|Any CPU
 		{2DE89032-2AC0-4879-8E6B-55AFC433D02C}.Release|x86.Build.0 = Release|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Debug|x64.Build.0 = Debug|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Debug|x86.Build.0 = Debug|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Release|x64.ActiveCfg = Release|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Release|x64.Build.0 = Release|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Release|x86.ActiveCfg = Release|Any CPU
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA} = {0705F6E4-D3FE-49CD-BF38-1912C4A4232E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1A21AE2-12B9-41D6-B443-0208E894EFF3}
