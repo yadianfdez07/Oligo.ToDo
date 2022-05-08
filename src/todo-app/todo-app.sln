@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{0705F6E4-D3F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo.wpf", "todo.wpf\todo.wpf.csproj", "{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo.services", "todo.services\todo.services.csproj", "{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,18 @@ Global
 		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Release|x64.Build.0 = Release|Any CPU
 		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Release|x86.ActiveCfg = Release|Any CPU
 		{26181344-DF73-4CF2-ACC3-78BAAD9E04AA}.Release|x86.Build.0 = Release|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Debug|x64.Build.0 = Debug|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Debug|x86.Build.0 = Debug|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Release|x64.ActiveCfg = Release|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Release|x64.Build.0 = Release|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Release|x86.ActiveCfg = Release|Any CPU
+		{049D440B-42F1-40E6-A5A4-D4ACBF7000EF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
